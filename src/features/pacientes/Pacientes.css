@@ -1,0 +1,154 @@
+/* Estilos generales */
+/* body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+  } */
+  
+  .container-pacientes {
+    /* max-width: 1200px; */
+    width: 100%;
+    padding-top: 45px;
+    /* margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  /* h1 {
+    font-size: 24px;
+    color: #333;
+  } */
+  
+  /* p {
+    font-size: 14px;
+    color: #666;
+  } */
+  
+  /* Filtros de sede */
+  .filters {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+  }
+  
+  .filters button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  .filters button.active {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  /* Filtros de estado */
+  .status-filters {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .status-filters button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    background-color: #e0e0e0;
+    cursor: pointer;
+  }
+  
+  /* Estilos de la tabla */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  table th,
+  table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .table-th {
+    background-color: #007bff;
+    color: #fff;
+  }
+  
+  table tbody tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  /* Paginación */
+  .pagination {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .search-container {
+    display: flex;
+    align-items: center;
+    background: #f8f9fa;
+    padding: 8px;
+    border-radius: 50px;
+    max-width: 600px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .search-box {
+    display: flex;
+    align-items: center;
+    background: white;
+    padding: 10px 15px;
+    border-radius: 50px;
+    flex-grow: 1;
+  }
+  
+  .search-box input {
+    border: none;
+    outline: none;
+    background: transparent;
+    width: 100%;
+    font-size: 14px;
+  }
+  
+  .icon {
+    width: 18px;
+    height: 18px;
+    fill: none;
+    stroke: gray;
+    stroke-width: 2;
+    margin-right: 8px;
+  }
+  
+  .search-button {
+    background: #4caf50;
+    border: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+  }
+  
+  .search-button:hover {
+    background: #43a047;
+  }
+  
+  .search-icon {
+    width: 20px;
+    height: 20px;
+    fill: none;
+    stroke: white;
+    stroke-width: 2;
+  }
+  
