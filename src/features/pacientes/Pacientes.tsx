@@ -1,6 +1,8 @@
+import 'bootstrap/dist/css/bootstrap.min.css'
+import 'bootstrap/dist/js/bootstrap.min.js'
 import { useEffect, useState } from 'react';
 import usePacientes from '../../hooks/usePacientes';
-import './Pacientes.css'
+//import './Pacientes.css'
 
 const Pacientes = () => {
 

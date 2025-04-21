@@ -1,33 +1,10 @@
-/* Estilos generales */
-/* body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
-    margin: 0;
-    padding: 20px;
-  } */
-  
+/*  
   .container-pacientes {
-    /* max-width: 1200px; */
     width: 100%;
     padding-top: 45px;
-    /* margin: 0 auto;
-    background-color: #fff;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); */
   }
   
-  /* h1 {
-    font-size: 24px;
-    color: #333;
-  } */
-  
-  /* p {
-    font-size: 14px;
-    color: #666;
-  } */
-  
-  /* Filtros de sede */
+
   .filters {
     display: flex;
     gap: 10px;
@@ -47,7 +24,6 @@
     color: #fff;
   }
   
-  /* Filtros de estado */
   .status-filters {
     display: flex;
     gap: 10px;
@@ -62,7 +38,6 @@
     cursor: pointer;
   }
   
-  /* Estilos de la tabla */
   table {
     width: 100%;
     border-collapse: collapse;
@@ -85,7 +60,6 @@
     background-color: #f1f1f1;
   }
   
-  /* Paginación */
   .pagination {
     text-align: center;
     font-size: 14px;
@@ -151,4 +125,4 @@
     stroke: white;
     stroke-width: 2;
   }
-  
+   */
